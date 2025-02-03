@@ -1,19 +1,20 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
-html, body { width:94%; height:99%; font-size:20px; font-family:'Gowun Batang'; overflow:auto; }
+html, body { width:94%; height:99%; font-size:18px; font-family:'Gowun Batang'; overflow:auto; }
 h2 { margin-top:0; }
 
 ::selection { color: #ffffff;  background-color: #3b3b36; }
 
 .sub-page { overflow:auto; padding-bottom:20em; }
+.space-underline { width:100%; border-top:1px solid #a5a2a2; }
 .space-block-l { margin-top:4em; margin-bottom:4em; }
 .space-block-m { margin-top:3em; margin-bottom:3em; }
 .space-block-s { margin-top:2em; margin-bottom:2em; }
 
-.title1, .title2 { font-weight:bold; }
-.title1 { font-size:1.2em; }
-.title2 { font-size:0.9em; }
+.title1, .title2, .title3 { font-weight:bold; }
+.title1 { font-size:1.3em; }
+.title2 { font-size:1.1em; }
 .desc { font-size:0.9em; margin-top:-0.9em; margin-bottom:0.5em; }
 .desc-blue { color:#3733a4; }
 .warn { font-size:0.8em; color:#cccccc; }
