@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+html, body { width:94%; height:99%; font-size:20px; font-family:'Gowun Batang'; overflow:auto; }
+h2 { margin-top:0; }
+
+::selection { color: #ffffff;  background-color: #3b3b36; }
+
+.sub-page { overflow:auto; padding-bottom:20em; }
+.space-block-l { margin-top:4em; margin-bottom:4em; }
+.space-block-m { margin-top:3em; margin-bottom:3em; }
+.space-block-s { margin-top:2em; margin-bottom:2em; }
+
+.title1, .title2 { font-weight:bold; }
+.title1 { font-size:1.2em; }
+.title2 { font-size:0.9em; }
+.desc { font-size:0.9em; margin-top:-0.9em; margin-bottom:0.5em; }
+.desc-blue { color:#3733a4; }
+.warn { font-size:0.8em; color:#cccccc; }
+.text-highlight { background-color:#ffef92d6; padding:0 0.2em 0; font-weight:bold; }
+.text-italic { font-style: italic; }
+
+.skill { font-weight:bold; font-size:0.8em; color:white; padding:0.1em 0.5em 0.2em; border-radius:0.3em; line-height:2.2em; }
+.lang { background-color:#7d2b2b94; }
+.osmw { background-color:#4d2b7d94; }
+.tool { background-color:#2b367d94; }
+.word { background-color:#2b637d94; }
+.mksh { background-color:#2b7d3a94; }
+.wst { background-color:#29482b94; }
+.lib { background-color:#8c356f94; }
+.db { background-color:#5a355394; }
+
+.basic-list li { margin-bottom:0.7em; font-size:0.9em; }
+.thesis-list { width:800px; background-color:#eaeaea; padding:0.5em; }
+.thesis-list ul { list-style:square; }
+.thesis-list li { margin-bottom:0.8em; font-size:0.9em; }
+.thesis-list li::marker { color:gray; }
+.thesis-list a { text-decoration:none; color:#4a4a4a; }
+.thesis-list a:hover { color:#383737; font-weight:bold; }
+
+.img-l, .img-m { width:90%; min-width:600px; padding:0.5em;  }
+.img-l { max-width:900px; }
+.img-m { max-width:1100px; }
+.img-s { width:40%; min-width:450px; }
+
+#content-top { position:fixed; right:10em; bottom:4em; border:none; background-color: transparent; }
+#content-top img { width:70px; height:70px; cursor:pointer; }
